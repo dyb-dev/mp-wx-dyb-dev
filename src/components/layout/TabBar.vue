@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-10-05 14:00:48
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-07 20:21:32
- * @FilePath: /uniapp-mp-wx-template/src/components/TabBar.vue
+ * @LastEditTime: 2024-10-28 21:30:47
+ * @FilePath: /mp-wx-dyb-dev/src/components/layout/TabBar.vue
  * @Description: 底部导航栏
 -->
 
@@ -12,7 +12,7 @@ import { useVModels } from "@vueuse/core"
 import { computed } from "vue"
 
 import pagesJson from "@/pages.json"
-import { navigateToPage } from "@/utils"
+import { navigateToPage, isImagePath } from "@/utils"
 
 /** TabBar 列表项 */
 export interface TTabBarItem {
@@ -307,7 +307,19 @@ export default {
                         }"
                         @tap="onClickTabBarItem(item, index)"
                     >
+                        <image
+                            v-if="isImagePath(modelValue === index ? item.selectedIcon : item.icon)"
+                            :src="modelValue === index ? item.selectedIcon : item.icon"
+                            style="display: block"
+                            :style="{
+                                width: iconSize,
+                                height: iconSize
+                            }"
+                            mode="aspectFit"
+                        />
+
                         <nut-icon
+                            v-else
                             :width="iconSize"
                             :height="iconSize"
                             :size="iconSize"
