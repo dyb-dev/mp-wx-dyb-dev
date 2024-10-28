@@ -68,7 +68,16 @@ const technicalList = [
         iconPath: "/static/image/my/technical/nodejs.svg"
     },
     {
+        iconPath: "/static/image/my/technical/pnpm.svg"
+    },
+    {
         iconPath: "/static/image/my/technical/esbuild.svg"
+    },
+    {
+        iconPath: "/static/image/my/technical/rollup.svg"
+    },
+    {
+        iconPath: "/static/image/my/technical/vite.svg"
     },
     {
         iconPath: "/static/image/my/technical/postcss.svg"
@@ -78,12 +87,6 @@ const technicalList = [
     },
     {
         iconPath: "/static/image/my/technical/sass.svg"
-    },
-    {
-        iconPath: "/static/image/my/technical/rollup.svg"
-    },
-    {
-        iconPath: "/static/image/my/technical/vite.svg"
     },
     {
         iconPath: "/static/image/my/technical/eslint.svg"
@@ -99,6 +102,9 @@ const technicalList = [
     },
     {
         iconPath: "/static/image/my/technical/vscode.svg"
+    },
+    {
+        iconPath: "/static/image/my/technical/iconfont.svg"
     },
     {
         iconPath: "/static/image/my/technical/git.svg"
