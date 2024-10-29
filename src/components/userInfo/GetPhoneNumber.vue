@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-10-05 14:00:48
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-09 21:01:59
- * @FilePath: /uniapp-mp-wx-template/src/components/userInfo/GetPhoneNumber.vue
+ * @LastEditTime: 2024-10-30 00:04:05
+ * @FilePath: /mp-wx-dyb-dev/src/components/userInfo/GetPhoneNumber.vue
  * @Description: 获取手机号组件
 -->
 
