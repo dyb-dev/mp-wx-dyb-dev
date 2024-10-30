@@ -8,7 +8,6 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ChooseAvatar: typeof import('./../../components/userInfo/ChooseAvatar.vue')['default']
-    Dialog: typeof import('./../../components/dialog/Dialog.vue')['default']
     GetPhoneNumber: typeof import('./../../components/userInfo/GetPhoneNumber.vue')['default']
     Layout: typeof import('./../../components/layout/Layout.vue')['default']
     NavBar: typeof import('./../../components/layout/NavBar.vue')['default']
@@ -23,10 +22,12 @@ declare module 'vue' {
     NutImagePreview: typeof import('nutui-uniapp/components/imagepreview/imagepreview.vue')['default']
     NutInput: typeof import('nutui-uniapp/components/input/input.vue')['default']
     NutNoticebar: typeof import('nutui-uniapp/components/noticebar/noticebar.vue')['default']
+    NutPopup: typeof import('nutui-uniapp/components/popup/popup.vue')['default']
     NutSwiper: typeof import('nutui-uniapp/components/swiper/swiper.vue')['default']
     NutSwiperItem: typeof import('nutui-uniapp/components/swiperitem/swiperitem.vue')['default']
     NutTag: typeof import('nutui-uniapp/components/tag/tag.vue')['default']
     NutToast: typeof import('nutui-uniapp/components/toast/toast.vue')['default']
+    Popup: typeof import('./../../components/popup/Popup.vue')['default']
     TabBar: typeof import('./../../components/layout/TabBar.vue')['default']
     TitleBar: typeof import('./../../components/TitleBar.vue')['default']
   }

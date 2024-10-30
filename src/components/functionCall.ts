@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-10-29 23:54:36
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-29 23:59:18
+ * @LastEditTime: 2024-10-30 20:56:41
  * @FilePath: /mp-wx-dyb-dev/src/components/functionCall.ts
  * @Description: 组件函数式调用相关工具函数
  */
@@ -19,8 +19,8 @@ interface IDefaultOptions {
     show: boolean
     /** 组件唯一标识key */
     customKey: string
-    /** 关闭完成回调 */
-    closed: (...args: any[]) => void
+    /** 卸载组件回调 */
+    unmount: (...args: any[]) => void
 }
 
 /**
