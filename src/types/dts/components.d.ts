@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AuthAvatarButton: typeof import('./../../components/userInfo/AuthAvatarButton.vue')['default']
+    AuthAvatarNicknameDialog: typeof import('./../../components/userInfo/AuthAvatarNicknameDialog.vue')['default']
     AuthPhoneNumberButton: typeof import('./../../components/userInfo/AuthPhoneNumberButton.vue')['default']
     Layout: typeof import('./../../components/layout/Layout.vue')['default']
     NavBar: typeof import('./../../components/layout/NavBar.vue')['default']

@@ -2,13 +2,15 @@
  * @Author: dyb-dev
  * @Date: 2024-10-01 22:46:34
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 21:43:00
+ * @LastEditTime: 2024-10-31 01:56:18
  * @FilePath: /mp-wx-dyb-dev/src/components/index.ts
  * @Description: 组件模块
  */
 
-/** 导出弹窗相关工具函数 */
+/** 导出弹窗组件相关工具函数 */
 export * from "./popup"
+/** 导出用户信息组件相关工具函数 */
+export * from "./userInfo"
 /** 导出提供组件选项相关工具函数 */
 export * from "./provideComponentOptions"
 

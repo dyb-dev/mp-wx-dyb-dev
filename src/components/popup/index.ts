@@ -2,9 +2,9 @@
  * @Author: dyb-dev
  * @Date: 2024-10-30 20:56:29
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 20:57:17
+ * @LastEditTime: 2024-10-31 01:54:06
  * @FilePath: /mp-wx-dyb-dev/src/components/popup/index.ts
- * @Description: 弹窗相关工具函数
+ * @Description: 弹窗组件相关工具函数
  */
 
 import { providerComponentOptions } from "@/components"
