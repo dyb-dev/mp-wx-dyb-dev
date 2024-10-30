@@ -1,10 +1,10 @@
 <!--
  * @Author: dyb-dev
- * @Date: 2024-10-05 14:00:48
+ * @Date: 2024-10-30 21:28:42
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 00:04:05
- * @FilePath: /mp-wx-dyb-dev/src/components/userInfo/GetPhoneNumber.vue
- * @Description: 获取手机号组件
+ * @LastEditTime: 2024-10-30 21:29:03
+ * @FilePath: /mp-wx-dyb-dev/src/components/userInfo/AuthPhoneNumberButton.vue
+ * @Description: 授权手机号按钮组件
 -->
 
 <script setup lang="ts">
@@ -98,11 +98,11 @@ export default {
 </script>
 
 <template>
-    <button class="get-phone-number" open-type="getPhoneNumber" @getphonenumber.stop="onGetPhoneNumber"></button>
+    <button class="auth-phone-number-button" open-type="getPhoneNumber" @getphonenumber.stop="onGetPhoneNumber"></button>
 </template>
 
 <style lang="scss" scoped>
-.get-phone-number {
+.auth-phone-number-button {
     position: absolute;
     top: 0;
     left: 0;

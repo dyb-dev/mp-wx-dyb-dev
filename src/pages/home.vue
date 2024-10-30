@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:38:39
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 21:01:43
+ * @LastEditTime: 2024-10-30 21:10:45
  * @FilePath: /mp-wx-dyb-dev/src/pages/home.vue
  * @Description: 首页
 -->
@@ -240,7 +240,7 @@ const showPreview = ref(false)
 const imgData = ref<ImageInterface[]>([])
 
 // EVENT: 点击预览图片
-const onClickPreviewImage = async(imgPath: string) => {
+const onClickPreviewImage = (imgPath: string) => {
 
     imgData.value[0] = {
         src: imgPath
