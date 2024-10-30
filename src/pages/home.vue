@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:38:39
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 00:19:01
+ * @LastEditTime: 2024-10-30 12:02:45
  * @FilePath: /mp-wx-dyb-dev/src/pages/home.vue
  * @Description: 首页
 -->
@@ -12,12 +12,12 @@ import { onShareAppMessage } from "@dcloudio/uni-app"
 import { useToast } from "nutui-uniapp/composables"
 import { ref } from "vue"
 
-import { SHARE_CONFIG } from "@/constants"
+import { useShare } from "@/hooks"
 
 import type { ImageInterface } from "nutui-uniapp/components/imagepreview/types.js"
 
 // LIFECYCLE: 分享钩子
-onShareAppMessage(() => SHARE_CONFIG)
+onShareAppMessage(() => useShare())
 
 /** STATIC: 卡片列表 */
 const carkList = [

@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-10-06 14:42:41
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-17 16:42:23
- * @FilePath: /uniapp-mp-wx-template/src/stores/userInfo.ts
+ * @LastEditTime: 2024-10-30 12:20:53
+ * @FilePath: /mp-wx-dyb-dev/src/stores/userInfo.ts
  * @Description: 用户信息状态管理
  */
 

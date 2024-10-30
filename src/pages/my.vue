@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:39:24
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-26 01:38:02
+ * @LastEditTime: 2024-10-30 12:25:37
  * @FilePath: /mp-wx-dyb-dev/src/pages/my.vue
  * @Description: 我的页面
  */
@@ -13,12 +13,12 @@ import { onShareAppMessage } from "@dcloudio/uni-app"
 import { setClipboardData } from "@uni-helper/uni-promises"
 import { ref } from "vue"
 
-import { SHARE_CONFIG } from "@/constants"
+import { useShare } from "@/hooks"
 
 import type { ImageInterface } from "nutui-uniapp/components/imagepreview/types.js"
 
 // LIFECYCLE: 分享钩子
-onShareAppMessage(() => SHARE_CONFIG)
+onShareAppMessage(() => useShare())
 
 /** STATIC: 头像图片路径ß */
 const avatarImgPath = "/static/image/dyb-dev.jpg"
