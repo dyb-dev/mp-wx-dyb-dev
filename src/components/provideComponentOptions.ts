@@ -2,9 +2,9 @@
  * @Author: dyb-dev
  * @Date: 2024-10-29 23:54:36
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 20:56:41
- * @FilePath: /mp-wx-dyb-dev/src/components/functionCall.ts
- * @Description: 组件函数式调用相关工具函数
+ * @LastEditTime: 2024-10-30 21:43:13
+ * @FilePath: /mp-wx-dyb-dev/src/components/provideComponentOptions.ts
+ * @Description: 提供组件选项相关工具函数
  */
 
 import { provide, ref } from "vue"
