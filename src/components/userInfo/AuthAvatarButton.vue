@@ -1,9 +1,9 @@
 <!--
  * @Author: dyb-dev
- * @Date: 2024-10-30 21:28:42
+ * @Date: 2024-10-05 14:00:48
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 21:28:53
- * @FilePath: /mp-wx-dyb-dev/src/components/userInfo/AuthAvatarButton.vue
+ * @LastEditTime: 2024-11-02 01:55:19
+ * @FilePath: /uniapp-mp-wx-template/src/components/userInfo/AuthAvatarButton.vue
  * @Description: 授权头像按钮组件
 -->
 
@@ -114,6 +114,23 @@ async function onChooseAvatar(event: ButtonOnChooseavatarEvent) {
     emits("success", avatarUrl)
 
 }
+
+// EVENT: 请求隐私协议授权
+const requirePrivacyAuthorize = () => {
+    // 请求隐私协议授权
+    wx.requirePrivacyAuthorize({
+        // 拒绝隐私协议
+        fail: () => {
+
+            emits("fail", {
+                code: EAuthErrorCode.DENIED,
+                message: "用户拒绝了隐私协议"
+            })
+
+        }
+    })
+
+}
 </script>
 
 <script lang="ts">
@@ -129,7 +146,12 @@ export default {
 </script>
 
 <template>
-    <button class="auth-avatar-button" open-type="chooseAvatar" @chooseavatar.stop="onChooseAvatar"></button>
+    <button
+        class="auth-avatar-button"
+        open-type="chooseAvatar"
+        @chooseavatar.stop="onChooseAvatar"
+        @click="requirePrivacyAuthorize"
+    ></button>
 </template>
 
 <style lang="scss" scoped>
