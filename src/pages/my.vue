@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:39:24
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-31 02:02:47
+ * @LastEditTime: 2024-11-05 16:37:24
  * @FilePath: /mp-wx-dyb-dev/src/pages/my.vue
  * @Description: 我的页面
  */
@@ -282,9 +282,17 @@ const navigateToWebPage = (link: string) => {
                 </view>
             </view>
         </view>
-    </Layout>
 
-    <nut-image-preview :show="showPreview" :images="imgData" :show-index="false" :scale="true" @close="showPreview = false" />
+        <template #extra-content>
+            <nut-image-preview
+                :show="showPreview"
+                :images="imgData"
+                :show-index="false"
+                :scale="true"
+                @close="showPreview = false"
+            />
+        </template>
+    </Layout>
 </template>
 
 <style lang="scss" scoped>

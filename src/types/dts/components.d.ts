@@ -27,6 +27,7 @@ declare module 'vue' {
     NutSwiperItem: typeof import('nutui-uniapp/components/swiperitem/swiperitem.vue')['default']
     NutTag: typeof import('nutui-uniapp/components/tag/tag.vue')['default']
     NutToast: typeof import('nutui-uniapp/components/toast/toast.vue')['default']
+    Picker: typeof import('./../../components/picker/Picker.vue')['default']
     Popup: typeof import('./../../components/popup/Popup.vue')['default']
     TabBar: typeof import('./../../components/layout/TabBar.vue')['default']
     TitleBar: typeof import('./../../components/TitleBar.vue')['default']

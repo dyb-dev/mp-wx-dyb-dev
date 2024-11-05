@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 16:27:38
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 15:01:54
+ * @LastEditTime: 2024-11-05 16:38:23
  * @FilePath: /mp-wx-dyb-dev/src/components/layout/Layout.vue
  * @Description: 页面布局容器
  */
@@ -180,6 +180,9 @@ export default {
             :list="tabBarStoreState.list"
             @click-tab-bar-item="(item, index) => emits('click-tab-bar-item', item, index)"
         />
+
+        <!-- 用于插入额外内容 -->
+        <slot name="extra-content"></slot>
 
         <!-- 注意，为实现全局函数式调用，需插入一个toast节点 -->
         <nut-toast />

@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:38:39
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 21:10:45
+ * @LastEditTime: 2024-11-05 16:43:59
  * @FilePath: /mp-wx-dyb-dev/src/pages/home.vue
  * @Description: 首页
 -->
@@ -331,9 +331,17 @@ const onClickPreviewImage = (imgPath: string) => {
                 </template>
             </nut-comment>
         </z-paging>
-    </Layout>
 
-    <nut-image-preview :show="showPreview" :images="imgData" :show-index="false" :scale="true" @close="showPreview = false" />
+        <template #extra-content>
+            <nut-image-preview
+                :show="showPreview"
+                :images="imgData"
+                :show-index="false"
+                :scale="true"
+                @close="showPreview = false"
+            />
+        </template>
+    </Layout>
 </template>
 
 <style lang="scss" scoped>

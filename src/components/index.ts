@@ -2,11 +2,13 @@
  * @Author: dyb-dev
  * @Date: 2024-10-01 22:46:34
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-31 01:56:18
+ * @LastEditTime: 2024-11-05 16:21:39
  * @FilePath: /mp-wx-dyb-dev/src/components/index.ts
  * @Description: 组件模块
  */
 
+/** 导出选择器组件相关工具函数 */
+export * from "./picker"
 /** 导出弹窗组件相关工具函数 */
 export * from "./popup"
 /** 导出用户信息组件相关工具函数 */
