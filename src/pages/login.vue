@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:39:05
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-17 16:36:39
- * @FilePath: /uniapp-mp-wx-template/src/pages/login.vue
+ * @LastEditTime: 2024-11-14 15:25:41
+ * @FilePath: /mp-wx-dyb-dev/src/pages/login.vue
  * @Description: 登录页
  */
 -->

@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-10-05 14:00:48
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-28 21:30:47
+ * @LastEditTime: 2024-11-14 15:23:51
  * @FilePath: /mp-wx-dyb-dev/src/components/layout/TabBar.vue
  * @Description: 底部导航栏
 -->
@@ -178,6 +178,9 @@ const height = computed(() => {
 
 })
 
+/** COMPUTED: tab-bar 高度表达式 */
+const heightExpression = computed(() => props.placeholder ? `calc(${height.value} + env(safe-area-inset-bottom))` : "0rpx")
+
 /** COMPUTED: tab-bar 背景 */
 const background = computed(() => {
     // @ts-ignore
@@ -261,6 +264,11 @@ async function onClickTabBarItem(item: TTabBarItem, index: number) {
     })
 
 }
+
+/** 将当前显示的左侧icon的类型暴露给父组件 */
+defineExpose({
+    heightExpression
+})
 </script>
 
 <script lang="ts">
@@ -279,7 +287,7 @@ export default {
     <view
         class="tab-bar-placeholder"
         :style="{
-            height: props.placeholder ? `calc(${height} + env(safe-area-inset-bottom))` : 'auto'
+            height: heightExpression
         }"
     >
         <view

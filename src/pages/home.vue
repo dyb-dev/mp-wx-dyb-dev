@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:38:39
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-05 16:43:59
+ * @LastEditTime: 2024-11-14 16:59:32
  * @FilePath: /mp-wx-dyb-dev/src/pages/home.vue
  * @Description: 首页
 -->
@@ -340,6 +340,8 @@ const onClickPreviewImage = (imgPath: string) => {
                 :scale="true"
                 @close="showPreview = false"
             />
+
+            <nut-toast />
         </template>
     </Layout>
 </template>
