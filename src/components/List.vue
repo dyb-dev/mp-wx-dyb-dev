@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-11-16 02:10:19
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-16 02:23:29
- * @FilePath: /uniapp-mp-wx-template/src/components/List.vue
+ * @LastEditTime: 2024-11-16 03:05:32
+ * @FilePath: /mp-wx-dyb-dev/src/components/List.vue
  * @Description: 列表组件
 -->
 
@@ -123,7 +123,7 @@ const props = withDefaults(defineProps<IListProps>(), {
     /** 启用数据为空时的占位 */
     emptyPlaceholder: true,
     /** 数据为空时的默认图片 */
-    emptyImage: "/static/images/List/empty.png",
+    emptyImage: "/static/image/List/empty.png",
     // 数据为空时的图片尺寸
     emptyImageSize: () => ["345rpx", "344rpx"],
     /** 数据为空时的文本描述 */
