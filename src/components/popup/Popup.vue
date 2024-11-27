@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-10-30 00:21:51
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-26 16:01:52
+ * @LastEditTime: 2024-11-27 20:09:28
  * @FilePath: /mp-wx-dyb-dev/src/components/popup/Popup.vue
  * @Description: 基础弹窗组件
 -->
@@ -288,7 +288,7 @@ export default {
                 <image
                     v-if="options.showCloseButton"
                     class="popup__main__close"
-                    src="/static/image/Popup/close.png"
+                    src="/static/image/popup/Popup/close.png"
                     mode="scaleToFill"
                     @click="close('click-close-button')"
                 />
