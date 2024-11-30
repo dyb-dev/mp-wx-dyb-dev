@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-11-16 02:31:12
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-27 20:10:03
+ * @LastEditTime: 2024-11-30 14:11:36
  * @FilePath: /mp-wx-dyb-dev/src/components/List.vue
  * @Description: 列表组件
 -->
@@ -566,11 +566,11 @@ export default {
         background: #29d446;
         border-radius: 50%;
         box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.12);
-        transform: scale(0);
+        transform: scale(0) translate3d(0, 0, 0);
         transition: transform 0.3s;
 
         &--activation {
-            transform: scale(1);
+            transform: scale(1) translate3d(0, 0, 0);
         }
 
         &__img {

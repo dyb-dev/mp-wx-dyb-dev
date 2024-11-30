@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:39:24
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-14 16:39:37
+ * @LastEditTime: 2024-11-30 14:27:06
  * @FilePath: /mp-wx-dyb-dev/src/pages/my.vue
  * @Description: 我的页面
  */
@@ -197,7 +197,7 @@ const navigateToWebPage = (link: string) => {
 </script>
 
 <template>
-    <Layout>
+    <Layout :nav-bar-props="{ bottomBorder: true }">
         <view class="my">
             <view class="my__card">
                 <nut-avatar size="large">
