@@ -5,8 +5,6 @@
 
 interface NavigateToOptions {
   url: "/pages/home" |
-       "/pages/launch" |
-       "/pages/login" |
        "/pages/my" |
        "/subPackages/webview/pages/webview";
 }

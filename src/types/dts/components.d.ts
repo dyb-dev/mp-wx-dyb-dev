@@ -24,7 +24,6 @@ declare module 'vue' {
     NutConfigProvider: typeof import('nutui-uniapp/components/configprovider/configprovider.vue')['default']
     NutIcon: typeof import('nutui-uniapp/components/icon/icon.vue')['default']
     NutImagePreview: typeof import('nutui-uniapp/components/imagepreview/imagepreview.vue')['default']
-    NutInput: typeof import('nutui-uniapp/components/input/input.vue')['default']
     NutNoticebar: typeof import('nutui-uniapp/components/noticebar/noticebar.vue')['default']
     NutSwiper: typeof import('nutui-uniapp/components/swiper/swiper.vue')['default']
     NutSwiperItem: typeof import('nutui-uniapp/components/swiperitem/swiperitem.vue')['default']

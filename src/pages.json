@@ -15,16 +15,6 @@
             }
         },
         {
-            "path": "pages/launch",
-            "type": "page",
-            "style": {}
-        },
-        {
-            "path": "pages/login",
-            "type": "page",
-            "style": {}
-        },
-        {
             "path": "pages/my",
             "type": "page",
             "style": {
