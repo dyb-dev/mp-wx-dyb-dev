@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-10-30 21:28:42
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-30 21:29:03
- * @FilePath: /mp-wx-dyb-dev/src/components/userInfo/AuthPhoneNumberButton.vue
+ * @LastEditTime: 2024-12-07 20:18:05
+ * @FilePath: /mp-wx-dyb-dev/src/components/auth/AuthPhoneNumberButton.vue
  * @Description: 授权手机号按钮组件
 -->
 
