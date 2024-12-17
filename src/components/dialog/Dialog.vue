@@ -8,13 +8,11 @@
 -->
 
 <script setup lang="ts">
-
 import { useVModels } from "@vueuse/core"
 // @ts-ignore
 // eslint-disable-next-line import/no-unresolved
 import mpHtml from "mp-html/dist/uni-app/components/mp-html/mp-html"
 import { inject, ref, watch } from "vue"
-
 
 import { deepClone } from "@/utils"
 
@@ -222,7 +220,7 @@ watch(injectOptions, value => {
     }
 
     options.value = {
-        ...options.value,
+        ...props,
         ...deepClone<TDialogProps>(value)
     }
 

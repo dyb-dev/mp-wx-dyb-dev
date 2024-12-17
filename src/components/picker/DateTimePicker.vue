@@ -218,7 +218,7 @@ watch(injectOptions, value => {
     }
 
     options.value = {
-        ...options.value,
+        ...props,
         ...deepClone<TDateTimePickerProps>(value)
     }
 
