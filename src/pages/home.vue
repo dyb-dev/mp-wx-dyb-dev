@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:38:39
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-07 20:29:21
+ * @LastEditTime: 2025-02-21 21:21:00
  * @FilePath: /mp-wx-dyb-dev/src/pages/home.vue
  * @Description: 首页
 -->
@@ -13,13 +13,14 @@ import { useToast } from "nutui-uniapp/composables"
 import { ref } from "vue"
 
 import { useShare, type IPaginationFetchDataFnParam, type TPaginationDataItem, type TPaginationFetchDataFnReturn } from "@/hooks"
+import { delay } from "@/utils"
 
 import type { ImageInterface } from "nutui-uniapp/components/imagepreview/types.js"
 
 // LIFECYCLE: 分享钩子
 onShareAppMessage(() => useShare())
 
-/** STATIC: 卡片列表 */
+/** CONST: 卡片列表 */
 const carkList = [
     {
         id: 1,
@@ -127,7 +128,7 @@ const fetchData = async({
 
 }
 
-/** STATIC: 数据总量 */
+/** CONST: 数据总量 */
 const total = 30
 
 /**
@@ -198,26 +199,6 @@ const generateDataList = (pageNo: number, pageSize: number): ICommentItem[] => {
     }
 
     return _list
-
-}
-
-/**
- * FUN: 延时指定的毫秒数
- *
- * @param {number} ms - 延迟的时间（毫秒）
- * @returns {Promise<void>} 返回一个 Promise，当延迟时间结束时 `resolve`
- */
-const delay = (ms: number): Promise<void> => {
-
-    return new Promise(resolve => {
-
-        setTimeout(() => {
-
-            resolve()
-
-        }, ms)
-
-    })
 
 }
 

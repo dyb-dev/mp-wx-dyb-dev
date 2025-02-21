@@ -20,10 +20,10 @@ import type { ImageInterface } from "nutui-uniapp/components/imagepreview/types.
 // LIFECYCLE: 分享钩子
 onShareAppMessage(() => useShare())
 
-/** STATIC: 头像图片路径ß */
+/** CONST: 头像图片路径ß */
 const avatarImgPath = "/static/image/dyb-dev.jpg"
 
-/** STATIC: 社交列表 */
+/** CONST: 社交列表 */
 const socialList = [
     {
         iconPath: "/static/image/my/social/csdn.png",
@@ -35,7 +35,7 @@ const socialList = [
     }
 ]
 
-/** STATIC: 技术列表 */
+/** CONST: 技术列表 */
 const technicalList = [
     {
         iconPath: "/static/image/my/technical/html5.svg"
@@ -117,7 +117,7 @@ const technicalList = [
     }
 ]
 
-/** STATIC: 运动列表 */
+/** CONST: 运动列表 */
 const sportsList = [
     {
         name: "跑步",
@@ -141,7 +141,7 @@ const sportsList = [
     }
 ]
 
-/** STATIC: 音乐列表 */
+/** CONST: 音乐列表 */
 const musicList = [
     {
         name: "See You Again (feat. Charlie Puth)",
