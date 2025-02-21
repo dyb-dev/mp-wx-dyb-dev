@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-11-05 16:23:36
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-17 18:58:14
+ * @LastEditTime: 2025-02-21 23:31:55
  * @FilePath: /mp-wx-dyb-dev/src/components/auth/AuthAvatarNicknameDialog.vue
  * @Description: 授权头像昵称对话框
 -->
@@ -173,8 +173,6 @@ const close = async(_actionType: TAuthAvatarNicknameDialogActionType) => {
                 avatarUrl: avatarUrl.value,
                 nickName: nickName.value
             })
-
-            console.log("close() _result:", _result)
 
             uni.hideLoading()
 
