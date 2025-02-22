@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:39:24
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-30 14:27:06
+ * @LastEditTime: 2025-02-23 00:02:01
  * @FilePath: /mp-wx-dyb-dev/src/pages/my.vue
  * @Description: 我的页面
  */
@@ -50,6 +50,9 @@ const technicalList = [
         iconPath: "/static/image/my/technical/ts.svg"
     },
     {
+        iconPath: "/static/image/my/technical/react.svg"
+    },
+    {
         iconPath: "/static/image/my/technical/vue.svg"
     },
     {
@@ -62,10 +65,10 @@ const technicalList = [
         iconPath: "/static/image/my/technical/vitepress.svg"
     },
     {
-        iconPath: "/static/image/my/technical/pixijs.svg"
+        iconPath: "/static/image/my/technical/pixi.svg"
     },
     {
-        iconPath: "/static/image/my/technical/nodejs.svg"
+        iconPath: "/static/image/my/technical/node.svg"
     },
     {
         iconPath: "/static/image/my/technical/pnpm.svg"
@@ -102,6 +105,9 @@ const technicalList = [
     },
     {
         iconPath: "/static/image/my/technical/vscode.svg"
+    },
+    {
+        iconPath: "/static/image/my/technical/cursor.svg"
     },
     {
         iconPath: "/static/image/my/technical/iconfont.svg"
