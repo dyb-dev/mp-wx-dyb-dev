@@ -1,6 +1,6 @@
 {
     "name": "mp-wx-dyb-dev",
-    "version": "2.0.6",
+    "version": "2.0.7",
     "description": "用于个人微信小程序功能测试",
     "author": "dyb-dev",
     "license": "MIT",
@@ -34,7 +34,7 @@
         "@dyb-dev/prettier-config": "^0.0.5",
         "@dyb-dev/project-cli": "^0.0.9",
         "@dyb-dev/stylelint-config": "^0.0.5",
-        "@dyb-dev/ts-config": "^0.0.7",
+        "@dyb-dev/ts-config": "^0.1.2",
         "@uni-helper/uni-app-types": "1.0.0-alpha.4",
         "@uni-helper/vite-plugin-uni-components": "^0.1.0",
         "@uni-helper/vite-plugin-uni-manifest": "^0.2.7",

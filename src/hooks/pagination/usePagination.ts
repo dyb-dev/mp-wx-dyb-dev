@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-11-16 02:11:23
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-19 15:22:45
+ * @LastEditTime: 2025-06-29 17:16:50
  * @FilePath: /mp-wx-dyb-dev/src/hooks/pagination/usePagination.ts
  * @Description: 分页器
  */
@@ -117,7 +117,7 @@ interface IUsePaginationReturn<T extends TPaginationDataItem> extends UseOffsetP
 }
 
 /**
- * 分页器
+ * HOOKS: 分页器
  *
  * @author dyb
  * @date 04/09/2024/  18:05:57

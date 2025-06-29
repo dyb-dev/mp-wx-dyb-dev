@@ -7,6 +7,8 @@
  * @Description: hook模块
  */
 
+/** 导出异步任务相关hook */
+export * from "./async"
 /** 导出分页相关hook */
 export * from "./pagination"
 /** 导出分享相关hook */
