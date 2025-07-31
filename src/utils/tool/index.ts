@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-11-16 02:16:21
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-16 02:16:23
- * @FilePath: /uniapp-mp-wx-template/src/utils/tool/index.ts
+ * @LastEditTime: 2025-07-31 23:46:03
+ * @FilePath: /mp-wx-dyb-dev/src/utils/tool/index.ts
  * @Description: 基础相关工具函数
  */
 
@@ -20,7 +20,7 @@ type TFuncType = (...args: any[]) => void
  * @param {boolean} [immediate=false] - 是否立即执行
  * @returns {*}  {TFuncType} - 防抖函数
  */
-const debounce = (fn: TFuncType, wait: number, immediate = false): TFuncType => {
+export const debounce = (fn: TFuncType, wait: number, immediate = false): TFuncType => {
 
     let _timeout: ReturnType<typeof setTimeout> | undefined
 
@@ -55,5 +55,3 @@ const debounce = (fn: TFuncType, wait: number, immediate = false): TFuncType => 
     }
 
 }
-
-export { debounce }

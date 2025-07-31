@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-10-30 11:26:48
  * @LastEditors: dyb-dev
- * @LastEditTime: 2025-06-29 17:16:28
+ * @LastEditTime: 2025-07-31 23:41:13
  * @FilePath: /mp-wx-dyb-dev/src/hooks/share/index.ts
  * @Description: 分享相关hook
  */
@@ -43,7 +43,7 @@ const { userInfoStoreState } = useUserInfoStoreWithOut()
  * @param {IShareConfig} [shareConfig] 分享配置
  * @returns {*}  {Page.CustomShareContent} 分享配置
  */
-const useShare = (shareConfig?: IShareConfig): Page.CustomShareContent => {
+export const useShare = (shareConfig?: IShareConfig): Page.CustomShareContent => {
 
     /** 当前分享配置 */
     const _shareConfig = { ...DEFAULT_SHARE_CONFIG, ...shareConfig }
@@ -73,5 +73,3 @@ const useShare = (shareConfig?: IShareConfig): Page.CustomShareContent => {
     return _shareConfig
 
 }
-
-export { useShare }

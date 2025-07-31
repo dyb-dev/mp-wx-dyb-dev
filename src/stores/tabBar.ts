@@ -2,8 +2,8 @@
  * @Author: dyb-dev
  * @Date: 2024-10-05 21:49:17
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-13 21:24:32
- * @FilePath: /uniapp-mp-wx-template/src/stores/tabBar.ts
+ * @LastEditTime: 2025-07-31 23:42:41
+ * @FilePath: /mp-wx-dyb-dev/src/stores/tabBar.ts
  * @Description: TabBar状态管理
  */
 
@@ -27,7 +27,7 @@ type TTabBarStoreState = {
 }
 
 /** Store 实例 */
-const useTabBarStore = defineStore("TabBarStore", () => {
+export const useTabBarStore = defineStore("TabBarStore", () => {
 
     /** Store State */
     const tabBarStoreState = reactive<TTabBarStoreState>({
@@ -128,10 +128,8 @@ const useTabBarStore = defineStore("TabBarStore", () => {
  * @date 15/09/2024/  23:53:35
  * @returns store实例
  */
-const useTabBarStoreWithOut = () => {
+export const useTabBarStoreWithOut = () => {
 
     return useTabBarStore(store)
 
 }
-
-export { useTabBarStore, useTabBarStoreWithOut }
