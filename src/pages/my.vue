@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-09-19 10:39:24
  * @LastEditors: dyb-dev
- * @LastEditTime: 2025-02-23 00:02:01
+ * @LastEditTime: 2025-08-01 20:05:11
  * @FilePath: /mp-wx-dyb-dev/src/pages/my.vue
  * @Description: 我的页面
  */
@@ -51,6 +51,9 @@ const technicalList = [
     },
     {
         iconPath: "/static/image/my/technical/react.svg"
+    },
+    {
+        iconPath: "/static/image/my/technical/next.svg"
     },
     {
         iconPath: "/static/image/my/technical/vue.svg"
