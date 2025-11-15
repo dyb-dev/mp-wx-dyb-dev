@@ -1,10 +1,10 @@
 /*
  * @Author: dyb-dev
  * @Date: 2024-12-07 19:43:09
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-07 20:12:34
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2025-11-15 13:08:30
  * @FilePath: /mp-wx-dyb-dev/src/components/u-charts/config-ucharts.js
- * @Description: uCharts 组件的用户配置文件
+ * @Description: uCharts 组件用户配置
  */
 
 /*

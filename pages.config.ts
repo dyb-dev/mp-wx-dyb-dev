@@ -4,7 +4,7 @@
  * @LastEditors: dyb-dev
  * @LastEditTime: 2024-11-30 14:09:28
  * @FilePath: /mp-wx-dyb-dev/pages.config.ts
- * @Description: 页面配置文件
+ * @Description: 页面配置
  */
 
 import { defineUniPages } from "@uni-helper/vite-plugin-uni-pages"
