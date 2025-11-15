@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2025-02-21 21:54:48
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-07-31 23:37:14
- * @FilePath: /mp-wx-dyb-dev/src/apis/interceptors/response.ts
- * @Description: 响应拦截器模块
+ * @FileDesc: 响应拦截器模块
  */
 
 import { un } from "@uni-helper/uni-network"

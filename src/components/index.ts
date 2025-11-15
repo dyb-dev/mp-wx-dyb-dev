@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-01 22:46:34
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-07 21:24:53
- * @FilePath: /mp-wx-dyb-dev/src/components/index.ts
- * @Description: 组件模块
+ * @FileDesc: 组件模块
  */
 
 /** 导出选择器组件相关工具函数 */

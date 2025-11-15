@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-10-05 20:10:11
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-10-31 23:30:28
- * @FilePath: /mp-wx-dyb-dev/src/App.vue
- * @Description: 程序全局组件
--->
+ * @FileDesc: 程序全局组件
+ -->
 
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app"

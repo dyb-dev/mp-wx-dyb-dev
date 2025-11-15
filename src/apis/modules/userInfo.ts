@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-09 15:23:42
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-07-31 23:37:49
- * @FilePath: /mp-wx-dyb-dev/src/apis/modules/userInfo.ts
- * @Description: 用户信息相关接口
+ * @FileDesc: 用户信息相关接口
  */
 
 import { sendRequest } from "../request"

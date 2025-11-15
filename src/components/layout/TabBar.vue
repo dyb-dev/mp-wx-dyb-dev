@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-10-05 14:00:48
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-11-14 15:23:51
- * @FilePath: /mp-wx-dyb-dev/src/components/layout/TabBar.vue
- * @Description: 底部导航栏
--->
+ * @FileDesc: 底部导航栏
+ -->
 
 <script setup lang="ts">
 import { useVModels } from "@vueuse/core"

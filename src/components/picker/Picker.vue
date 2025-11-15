@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-11-04 19:51:56
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-17 18:58:46
- * @FilePath: /mp-wx-dyb-dev/src/components/picker/Picker.vue
- * @Description: 自定义选择器组件
--->
+ * @FileDesc: 自定义选择器组件
+ -->
 
 <script setup lang="ts">
 import { useVModels } from "@vueuse/core"

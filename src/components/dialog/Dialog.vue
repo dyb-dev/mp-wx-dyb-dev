@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-11-26 15:45:03
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-17 19:37:05
- * @FilePath: /mp-wx-dyb-dev/src/components/dialog/Dialog.vue
- * @Description: 对话框基础组件
--->
+ * @FileDesc: 对话框基础组件
+ -->
 
 <script setup lang="ts">
 import { useVModels } from "@vueuse/core"

@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-06 15:04:04
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-07-31 23:44:17
- * @FilePath: /mp-wx-dyb-dev/src/utils/media/index.ts
- * @Description: 媒体相关工具函数
+ * @FileDesc: 媒体相关工具函数
  */
 
 /** CONST: 常见的图片扩展名 */

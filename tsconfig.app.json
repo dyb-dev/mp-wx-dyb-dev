@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-05 13:56:46
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-02-10 18:19:39
- * @FilePath: /mp-wx-dyb-dev/tsconfig.app.json
- * @Description: app环境ts配置
+ * @FileDesc: app环境ts配置
  */
 
 {

@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2025-02-21 21:14:28
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-07-31 23:44:11
- * @FilePath: /mp-wx-dyb-dev/src/utils/location/index.ts
- * @Description: 位置相关工具函数
+ * @FileDesc: 位置相关工具函数
  */
 
 /** 位置 */

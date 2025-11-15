@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-11-02 01:59:59
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-17 21:42:55
- * @FilePath: /mp-wx-dyb-dev/src/components/auth/NickNameInput.vue
- * @Description: 昵称输入框组件
--->
+ * @FileDesc: 昵称输入框组件
+ -->
 
 <script setup lang="ts">
 import { onLoad } from "@dcloudio/uni-app"

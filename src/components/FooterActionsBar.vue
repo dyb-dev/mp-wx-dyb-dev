@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-12-07 21:09:19
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-12-07 21:11:24
- * @FilePath: /mp-wx-dyb-dev/src/components/FooterActionsBar.vue
- * @Description: 页面底部操作栏组件
--->
+ * @FileDesc: 页面底部操作栏组件
+ -->
 
 <script setup lang="ts">
 /**

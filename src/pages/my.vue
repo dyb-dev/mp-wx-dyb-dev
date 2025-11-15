@@ -1,12 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-09-19 10:39:24
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-08-01 20:05:11
- * @FilePath: /mp-wx-dyb-dev/src/pages/my.vue
- * @Description: 我的页面
- */
--->
+ * @FileDesc: 我的页面
+ -->
 
 <script setup lang="ts">
 import { onShareAppMessage } from "@dcloudio/uni-app"

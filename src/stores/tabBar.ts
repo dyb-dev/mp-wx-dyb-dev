@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-05 21:49:17
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-07-31 23:42:41
- * @FilePath: /mp-wx-dyb-dev/src/stores/tabBar.ts
- * @Description: TabBar状态管理
+ * @FileDesc: TabBar状态管理
  */
 
 import { defineStore } from "pinia"

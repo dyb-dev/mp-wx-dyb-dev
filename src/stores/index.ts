@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-05 21:26:18
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-07-31 23:42:23
- * @FilePath: /mp-wx-dyb-dev/src/stores/index.ts
- * @Description: store模块
+ * @FileDesc: store模块
  */
 
 export * from "./activity"
