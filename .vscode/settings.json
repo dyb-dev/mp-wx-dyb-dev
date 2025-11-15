@@ -402,7 +402,8 @@
         "getphonenumber",
         "chooseavatar",
         "noticebar",
-        "gutterpreview"
+        "gutterpreview",
+        "unocss"
     ],
 
     // #endregion
