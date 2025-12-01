@@ -206,12 +206,12 @@
     position: relative;
     width: $width;
     height: $height;
-    background: url($bg-image1) no-repeat center/cover;
+    background: url(#{$bg-image1}) no-repeat center/cover;
 
     &::before {
         position: absolute;
         inset: 0;
-        background: url($bg-image2) no-repeat center/cover;
+        background: url(#{$bg-image2}) no-repeat center/cover;
         content: "";
         mask: linear-gradient(45deg, #000 40%, transparent 60%);
     }
