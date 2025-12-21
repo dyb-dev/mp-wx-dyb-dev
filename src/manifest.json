@@ -2,7 +2,7 @@
   "name": "mp-wx-dyb-dev",
   "appid": "",
   "description": "用于个人微信小程序功能测试",
-  "versionName": "2.2.2",
+  "versionName": "2.2.3",
   "versionCode": "100",
   "transformPx": false,
   "app-plus": {

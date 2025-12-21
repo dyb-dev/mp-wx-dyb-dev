@@ -101,7 +101,7 @@ interface ICommentItem {
 }
 
 // FUN 请求数据函数
-const fetchData = async({
+const fetchData = async ({
     currentPageSize,
     currentPage
 }: IPaginationFetchDataFnParam): TPaginationFetchDataFnReturn<TPaginationDataItem> => {
